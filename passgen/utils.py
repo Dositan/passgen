@@ -30,4 +30,4 @@ def generate_password(length: int = 25, *, args: Namespace) -> str:
         CURRENT += string.punctuation
 
     result = random.sample(CURRENT, length)
-    return ''.join(result)
+    return "".join(result)
