@@ -10,10 +10,10 @@ def generate_password(length: int = 25, *, args: Namespace) -> str:
 
     Parameters
     ----------
-    args : Namespace
-        The namespace of arguments AKA flags, that get passed from the terminal.
     length : int, optional
         The length for the password creation, by default 25
+    args : Namespace
+        The namespace of arguments AKA flags, that get passed from the terminal.
 
     Returns
     -------
